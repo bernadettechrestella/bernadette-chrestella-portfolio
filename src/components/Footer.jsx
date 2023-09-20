@@ -44,18 +44,18 @@ const Footer = () => {
                     <div>
                         <p className='uppercase text-xl tracking-wider font-bold pb-3'>Social Media</p>
                         <div className='flex flex-wrap justify-around'>
-                        <a href="https://www.linkedin.com/in/bernadette-chrestella/" target="_blank" rel="noreferrer">
-                            <FaLinkedin size={25} className='my-2 cursor-pointer'/>
-                        </a>
-                        <a href="https://www.youtube.com/@bernadettechrestella" target="_blank" rel="noreferrer">
-                            <FaYoutube size={25} className='my-2 cursor-pointer'/>
-                        </a>
-                        <a href="https://github.com/bernadettechrestella" target="_blank" rel="noreferrer">
-                            <FaGithub size={25} className='my-2 cursor-pointer'/>
-                        </a>
-                        <a href="https://www.instagram.com/bernadette.chrestella/" target="_blank" rel="noreferrer">
-                            <FaInstagram size={25} className='my-2 cursor-pointer'/>
-                        </a>
+                            <a href="https://www.linkedin.com/in/bernadette-chrestella/" target="_blank" rel="noreferrer">
+                                <FaLinkedin size={25} className='my-2 cursor-pointer'/>
+                            </a>
+                            <a href="https://www.youtube.com/@bernadettechrestella" target="_blank" rel="noreferrer">
+                                <FaYoutube size={25} className='my-2 cursor-pointer'/>
+                            </a>
+                            <a href="https://github.com/bernadettechrestella" target="_blank" rel="noreferrer">
+                                <FaGithub size={25} className='my-2 cursor-pointer'/>
+                            </a>
+                            <a href="https://www.instagram.com/bernadette.chrestella/" target="_blank" rel="noreferrer">
+                                <FaInstagram size={25} className='my-2 cursor-pointer'/>
+                            </a>
                         </div>
                     </div>
                 </div>
