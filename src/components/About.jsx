@@ -51,7 +51,8 @@ const About = () => {
                 <li className='p-3 rounded-xl border border-accent m-2'>React.js</li>
                 <li className='p-3 rounded-xl border border-accent m-2'>Vue.js</li>
                 <li className='p-3 rounded-xl border border-accent m-2'>MySql</li>
-                <li className='p-3 rounded-xl border border-accent m-2'>Firebase</li>
+                <li className='p-3 rounded-xl border border-accent m-2'>Figma</li>
+                {/* <li className='p-3 rounded-xl border border-accent m-2'>Firebase</li> */}
               </ul>
             </div>
       </div>
