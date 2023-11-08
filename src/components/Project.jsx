@@ -1,7 +1,7 @@
 import React from 'react'
 import cerdasia from '../assets/cerdasia.png';
 import portfolio from '../assets/portfolio.png';
-import bmiCalc from '../assets/bmiCalc.png';
+// import bmiCalc from '../assets/bmiCalc.png';
 import kasir from '../assets/kasir.png';
 import culinary from '../assets/culinary.png';
 
@@ -41,12 +41,12 @@ const Project = () => {
                 <li className='p-1.5 rounded-xl border border-accent m-1'>Tailwind Css</li>
                 <li className='p-1.5 rounded-xl border border-accent m-1'>React Js</li>
               </ul>
-            <div className='flex gap-3'>
+            <div className='grid grid-cols-2 md:grid-cols-3 gap-3'>
               <a href="https://bernadette-chrestella-portfolio.vercel.app/" target="_blank" rel="noreferrer">
-                <button className='bg-button text-btnText dark:hover:bg-teal-500 hover:text-primary hover:bg-cyan-400 font-semibold py-2 px-12 rounded-full uppercase'>Demo</button>
+                <button className='w-full bg-button text-btnText dark:hover:bg-teal-500 hover:text-primary hover:bg-cyan-400 font-semibold py-2 px-12 rounded-full uppercase'>Demo</button>
               </a>
               <a href="https://github.com/bernadettechrestella/bernadette-chrestella-portfolio" target="_blank" rel="noreferrer">
-                <button className='bg-button text-btnText dark:hover:bg-teal-500 hover:text-primary hover:bg-cyan-400 font-semibold py-2 px-12 rounded-full uppercase'>Code</button>
+                <button className='w-full bg-button text-btnText dark:hover:bg-teal-500 hover:text-primary hover:bg-cyan-400 font-semibold py-2 px-12 rounded-full uppercase'>Code</button>
               </a>
             </div>
           </div>
@@ -72,15 +72,15 @@ const Project = () => {
                 <li className='p-1.5 rounded-xl border border-accent m-1'>Tailwind Css</li>
                 <li className='p-1.5 rounded-xl border border-accent m-1'>React Js</li>
               </ul>
-            <div className='flex gap-3'>
+            <div className='grid grid-cols-2 md:grid-cols-3 gap-3'>
               <a href="https://kasir-stock-bernadettechrestella.vercel.app/" target="_blank" rel="noreferrer">
-                <button className='bg-button text-btnText dark:hover:bg-teal-500 hover:text-primary hover:bg-cyan-400 font-semibold py-2 px-12 rounded-full uppercase'>Demo</button>
+                <button className='w-full bg-button text-btnText dark:hover:bg-teal-500 hover:text-primary hover:bg-cyan-400 font-semibold py-2 px-12 rounded-full uppercase'>Demo</button>
               </a>
               <a href="https://github.com/bernadettechrestella/kasir-stock" target="_blank" rel="noreferrer">
-                <button className='bg-button text-btnText dark:hover:bg-teal-500 hover:text-primary hover:bg-cyan-400 font-semibold py-2 px-12 rounded-full uppercase'>Code</button>
+                <button className='w-full bg-button text-btnText dark:hover:bg-teal-500 hover:text-primary hover:bg-cyan-400 font-semibold py-2 px-12 rounded-full uppercase'>Code</button>
               </a>
               <a href="https://www.figma.com/file/3RI8rGImGnrOVlhWfFpv6f/POS?type=design&node-id=0%3A1&mode=design&t=p9mXQ2YGLX2Uwd9m-1" target="_blank" rel="noreferrer">
-                <button className='bg-button text-btnText dark:hover:bg-teal-500 hover:text-primary hover:bg-cyan-400 font-semibold py-2 px-12 rounded-full uppercase'>Design</button>
+                <button className='w-full bg-button text-btnText dark:hover:bg-teal-500 hover:text-primary hover:bg-cyan-400 font-semibold py-2 px-12 rounded-full uppercase'>Design</button>
               </a>
             </div>
           </div>
@@ -104,12 +104,12 @@ const Project = () => {
                 <li className='p-1.5 rounded-xl border border-accent m-1'>Tailwind Css</li>
                 <li className='p-1.5 rounded-xl border border-accent m-1'>React Js</li>
             </ul>
-            <div className='flex gap-3'>
+            <div className='grid grid-cols-2 md:grid-cols-3 gap-3'>
             <a href="https://culinary-passport.vercel.app/" target="_blank" rel="noreferrer">
-              <button className='bg-button text-btnText dark:hover:bg-teal-500 hover:text-primary hover:bg-cyan-400 font-semibold py-2 px-12 rounded-full uppercase'>Demo</button>
+              <button className='w-full bg-button text-btnText dark:hover:bg-teal-500 hover:text-primary hover:bg-cyan-400 font-semibold py-2 px-12 rounded-full uppercase'>Demo</button>
             </a>
             <a href="https://github.com/bernadettechrestella/culinary-passport" target="_blank" rel="noreferrer">
-              <button className='bg-button text-btnText dark:hover:bg-teal-500 hover:text-primary hover:bg-cyan-400 font-semibold py-2 px-12 rounded-full uppercase'>Code</button>
+              <button className='w-full bg-button text-btnText dark:hover:bg-teal-500 hover:text-primary hover:bg-cyan-400 font-semibold py-2 px-12 rounded-full uppercase'>Code</button>
             </a>
             </div>
           </div>
@@ -132,12 +132,12 @@ const Project = () => {
                 <li className='p-1.5 rounded-xl border border-accent m-1'>Java Script</li>
                 <li className='p-1.5 rounded-xl border border-accent m-1'>Vue Js</li>
               </ul>
-            <div className='flex gap-3'>
+            <div className='grid grid-cols-2 md:grid-cols-3 gap-3'>
               <a href="https://cerdasia-website.vercel.app/" target="_blank" rel="noreferrer">
-                <button className='bg-button text-btnText dark:hover:bg-teal-500 hover:text-primary hover:bg-cyan-400 font-semibold py-2 px-12 rounded-full uppercase'>Demo</button>
+                <button className='w-full bg-button text-btnText dark:hover:bg-teal-500 hover:text-primary hover:bg-cyan-400 font-semibold py-2 px-12 rounded-full uppercase'>Demo</button>
               </a>
               <a href="https://github.com/bernadettechrestella/cerdasia_website" target="_blank" rel="noreferrer">
-                <button className='bg-button text-btnText dark:hover:bg-teal-500 hover:text-primary hover:bg-cyan-400 font-semibold py-2 px-12 rounded-full uppercase'>Code</button>
+                <button className='w-full bg-button text-btnText dark:hover:bg-teal-500 hover:text-primary hover:bg-cyan-400 font-semibold py-2 px-12 rounded-full uppercase'>Code</button>
               </a>
             </div>
           </div>
