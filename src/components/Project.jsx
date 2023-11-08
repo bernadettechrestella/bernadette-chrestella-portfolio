@@ -3,6 +3,7 @@ import cerdasia from '../assets/cerdasia.png';
 import portfolio from '../assets/portfolio.png';
 import bmiCalc from '../assets/bmiCalc.png';
 import kasir from '../assets/kasir.png';
+import culinary from '../assets/culinary.png';
 
 const Project = () => {
   return (
@@ -86,15 +87,15 @@ const Project = () => {
 
           <div className='bg-button rounded-xl shadow-lg shadow-cyan-500/50 hover:scale-105 ease-in-out'>
             <div className='h-full w-full border-accent border-4 rounded-xl bg-button '>
-              <img src={bmiCalc} alt='/' className='h-full w-full rounded-lg' />
+              <img src={culinary} alt='/' className='h-full w-full rounded-lg' />
             </div>
           </div>
           <div className='md:py-4 sm:py-2 px-1'>
             <div className='flex justify-between'>
-              <p className='font-semibold text-2xl tracking-widest'>BMI Calculator</p>
+              <p className='font-semibold text-2xl tracking-widest'>Culinary Passport</p>
               <p className='text-xs mt-3'>2023</p>
             </div>
-            <p className='pt-2 pb-4'>A simple BMI Calculator.</p>
+            <p className='pt-2 pb-4'>Cook whatever you want</p>
             <p className='font-semibold text-lg'>Tools Used</p>
             <ul className='flex flex-wrap pb-3'>
                 <li className='p-1.5 rounded-xl border border-accent m-1'>HTML</li>
@@ -104,10 +105,10 @@ const Project = () => {
                 <li className='p-1.5 rounded-xl border border-accent m-1'>React Js</li>
             </ul>
             <div className='flex gap-3'>
-            <a href="https://bmi-calculator-react-bernadettechrestella.vercel.app/" target="_blank" rel="noreferrer">
+            <a href="https://culinary-passport.vercel.app/" target="_blank" rel="noreferrer">
               <button className='bg-button text-btnText dark:hover:bg-teal-500 hover:text-primary hover:bg-cyan-400 font-semibold py-2 px-12 rounded-full uppercase'>Demo</button>
             </a>
-            <a href="https://github.com/bernadettechrestella/bmi-calculator-react" target="_blank" rel="noreferrer">
+            <a href="https://github.com/bernadettechrestella/culinary-passport" target="_blank" rel="noreferrer">
               <button className='bg-button text-btnText dark:hover:bg-teal-500 hover:text-primary hover:bg-cyan-400 font-semibold py-2 px-12 rounded-full uppercase'>Code</button>
             </a>
             </div>
