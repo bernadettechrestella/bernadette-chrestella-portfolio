@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div name='contact' className='w-full h-screen justify-center p-4
       bg-gradient-to-b to-white via-gray-100 from-gray-200 dark:bg-gradient-to-b dark:to-black dark:via-slate-800 dark:from-gray-700'>
-        <div className='justify-center items-center max-w-[1000px] w-full m-auto'>
+        <div className='justify-center items-center max-w-[1000px] w-full m-auto pt-20'>
           <form 
             id='formContact'
             method='POST'
@@ -23,7 +23,7 @@ const Contact = () => {
               <input type="email" placeholder='Email' name='email' className='border border-accent rounded-lg p-2 mb-2 text-accent bg-primary' />
               
               <label className='font-semibold pb-1'>Message</label>
-              <textarea name="message" rows="10" placeholder='Message' className='border border-accent rounded-lg p-2 mb-2 text-accent bg-primary'></textarea>
+              <textarea name="message" rows="8" placeholder='Message' className='border border-accent rounded-lg p-2 mb-2 text-accent bg-primary'></textarea>
               <button className='px-4 py-3 my-2 mx-auto flex items-center bg-button text-btnText dark:hover:bg-teal-500 hover:text-primary hover:bg-cyan-400 font-semibold rounded-full uppercase'>Let's Collaborate</button>
               </div>
           </form>
