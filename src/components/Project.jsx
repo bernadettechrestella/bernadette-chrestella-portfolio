@@ -1,9 +1,9 @@
 import React from 'react'
 import cerdasia from '../assets/cerdasia.png';
 import portfolio from '../assets/portfolio.png';
-// import bmiCalc from '../assets/bmiCalc.png';
 import kasir from '../assets/kasir.png';
 import culinary from '../assets/culinary.png';
+import articleFinder from '../assets/articleFinder.png';
 
 const Project = () => {
   return (
@@ -49,6 +49,68 @@ const Project = () => {
                 <button className='w-full bg-button text-btnText dark:hover:bg-teal-500 hover:text-primary hover:bg-cyan-400 font-semibold py-2 px-12 rounded-full uppercase'>Code</button>
               </a>
             </div>
+          </div>          
+
+          <div className='bg-button rounded-xl shadow-lg shadow-cyan-500/50 hover:scale-105 ease-in-out'>
+            <div className='h-full w-full border-accent border-4 rounded-xl bg-button '>
+              <img src={articleFinder} alt='/' className='h-full w-full rounded-lg' />
+            </div>
+          </div>
+          <div className='md:py-4 sm:py-2 px-1'>
+            <div className='flex justify-between'>
+              <p className='font-semibold text-2xl tracking-widest'>Article Finder</p>
+              <p className='text-xs mt-3'>2023 - Under Maintenance</p>
+            </div>
+            <p className='pt-2 pb-4'>Find your Article that you want to read. Use free API from 
+              <a href='https://api.nytimes.com' className='text-accent' target="_blank" rel="noreferrer"> api.nytimes.com</a>
+            </p>
+            <p className='font-semibold text-lg'>Tools Used</p>
+            <ul className='flex flex-wrap pb-3'>
+                <li className='p-1.5 rounded-xl border border-accent m-1'>HTML</li>
+                <li className='p-1.5 rounded-xl border border-accent m-1'>CSS</li>
+                <li className='p-1.5 rounded-xl border border-accent m-1'>Java Script</li>
+                <li className='p-1.5 rounded-xl border border-accent m-1'>Tailwind Css</li>
+                <li className='p-1.5 rounded-xl border border-accent m-1'>React Js</li>
+            </ul>
+            <div className='grid grid-cols-2 md:grid-cols-3 gap-3'>
+            <a href="https://article-finder.vercel.app/" target="_blank" rel="noreferrer">
+              <button className='w-full bg-button text-btnText dark:hover:bg-teal-500 hover:text-primary hover:bg-cyan-400 font-semibold py-2 px-12 rounded-full uppercase'>Demo</button>
+            </a>
+            <a href="https://github.com/bernadettechrestella/article-finder" target="_blank" rel="noreferrer">
+              <button className='w-full bg-button text-btnText dark:hover:bg-teal-500 hover:text-primary hover:bg-cyan-400 font-semibold py-2 px-12 rounded-full uppercase'>Code</button>
+            </a>
+            </div>
+          </div>
+
+          <div className='bg-button rounded-xl shadow-lg shadow-cyan-500/50 hover:scale-105 ease-in-out'>
+            <div className='h-full w-full border-accent border-4 rounded-xl bg-button '>
+              <img src={culinary} alt='/' className='h-full w-full rounded-lg' />
+            </div>
+          </div>
+          <div className='md:py-4 sm:py-2 px-1'>
+            <div className='flex justify-between'>
+              <p className='font-semibold text-2xl tracking-widest'>Culinary Passport</p>
+              <p className='text-xs mt-3'>2023 - Under Maintenance</p>
+            </div>
+            <p className='pt-2 pb-4'>Find a random recipe that you want. Use free API from
+              <a href='https://www.themealdb.com/api.php' className='text-accent' target="_blank" rel="noreferrer"> themealdb.com</a>
+            </p>
+            <p className='font-semibold text-lg'>Tools Used</p>
+            <ul className='flex flex-wrap pb-3'>
+                <li className='p-1.5 rounded-xl border border-accent m-1'>HTML</li>
+                <li className='p-1.5 rounded-xl border border-accent m-1'>CSS</li>
+                <li className='p-1.5 rounded-xl border border-accent m-1'>Java Script</li>
+                <li className='p-1.5 rounded-xl border border-accent m-1'>Tailwind Css</li>
+                <li className='p-1.5 rounded-xl border border-accent m-1'>React Js</li>
+            </ul>
+            <div className='grid grid-cols-2 md:grid-cols-3 gap-3'>
+            <a href="https://culinary-passport.vercel.app/" target="_blank" rel="noreferrer">
+              <button className='w-full bg-button text-btnText dark:hover:bg-teal-500 hover:text-primary hover:bg-cyan-400 font-semibold py-2 px-12 rounded-full uppercase'>Demo</button>
+            </a>
+            <a href="https://github.com/bernadettechrestella/culinary-passport" target="_blank" rel="noreferrer">
+              <button className='w-full bg-button text-btnText dark:hover:bg-teal-500 hover:text-primary hover:bg-cyan-400 font-semibold py-2 px-12 rounded-full uppercase'>Code</button>
+            </a>
+            </div>
           </div>
 
           <div className='bg-button rounded-xl shadow-lg shadow-cyan-500/50  hover:scale-105 ease-in-out'>
@@ -56,12 +118,13 @@ const Project = () => {
               <img src={kasir} alt='/' className='h-full w-full rounded-lg' />
             </div>
           </div>
+
           <div className='md:py-4 sm:py-2 px-1'>
             <div className='flex justify-between'>
               <p className='font-semibold text-2xl tracking-widest'>Website Kasir</p>
               <p className='mt-3 text-xs'>2023</p>
             </div>
-            <p className='pt-2 pb-4'>Kasir website, design and Frontend development by Me. Using free API from 
+            <p className='pt-2 pb-4'>Kasir website, design and Frontend development by Me. Use free API from 
               <a href='https://dummyjson.com/' className='text-accent' target="_blank" rel="noreferrer"> dummyjson.com</a>
             </p>
             <p className='font-semibold text-lg'>Tools Used</p>
@@ -82,35 +145,6 @@ const Project = () => {
               <a href="https://www.figma.com/file/3RI8rGImGnrOVlhWfFpv6f/POS?type=design&node-id=0%3A1&mode=design&t=p9mXQ2YGLX2Uwd9m-1" target="_blank" rel="noreferrer">
                 <button className='w-full bg-button text-btnText dark:hover:bg-teal-500 hover:text-primary hover:bg-cyan-400 font-semibold py-2 px-12 rounded-full uppercase'>Design</button>
               </a>
-            </div>
-          </div>
-
-          <div className='bg-button rounded-xl shadow-lg shadow-cyan-500/50 hover:scale-105 ease-in-out'>
-            <div className='h-full w-full border-accent border-4 rounded-xl bg-button '>
-              <img src={culinary} alt='/' className='h-full w-full rounded-lg' />
-            </div>
-          </div>
-          <div className='md:py-4 sm:py-2 px-1'>
-            <div className='flex justify-between'>
-              <p className='font-semibold text-2xl tracking-widest'>Culinary Passport</p>
-              <p className='text-xs mt-3'>2023</p>
-            </div>
-            <p className='pt-2 pb-4'>Cook whatever you want</p>
-            <p className='font-semibold text-lg'>Tools Used</p>
-            <ul className='flex flex-wrap pb-3'>
-                <li className='p-1.5 rounded-xl border border-accent m-1'>HTML</li>
-                <li className='p-1.5 rounded-xl border border-accent m-1'>CSS</li>
-                <li className='p-1.5 rounded-xl border border-accent m-1'>Java Script</li>
-                <li className='p-1.5 rounded-xl border border-accent m-1'>Tailwind Css</li>
-                <li className='p-1.5 rounded-xl border border-accent m-1'>React Js</li>
-            </ul>
-            <div className='grid grid-cols-2 md:grid-cols-3 gap-3'>
-            <a href="https://culinary-passport.vercel.app/" target="_blank" rel="noreferrer">
-              <button className='w-full bg-button text-btnText dark:hover:bg-teal-500 hover:text-primary hover:bg-cyan-400 font-semibold py-2 px-12 rounded-full uppercase'>Demo</button>
-            </a>
-            <a href="https://github.com/bernadettechrestella/culinary-passport" target="_blank" rel="noreferrer">
-              <button className='w-full bg-button text-btnText dark:hover:bg-teal-500 hover:text-primary hover:bg-cyan-400 font-semibold py-2 px-12 rounded-full uppercase'>Code</button>
-            </a>
             </div>
           </div>
 
