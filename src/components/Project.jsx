@@ -59,7 +59,7 @@ const Project = () => {
           <div className='md:py-4 sm:py-2 px-1'>
             <div className='flex justify-between'>
               <p className='font-semibold text-2xl tracking-widest'>Article Finder</p>
-              <p className='text-xs mt-3'>2023 - Under Maintenance</p>
+              <p className='text-xs mt-3'>2023</p>
             </div>
             <p className='pt-2 pb-4'>Find your Article that you want to read. Use free API from 
               <a href='https://api.nytimes.com' className='text-accent' target="_blank" rel="noreferrer"> api.nytimes.com</a>
